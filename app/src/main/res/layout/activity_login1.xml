@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:paddingRight="0dp"
+    android:paddingLeft="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    tools:context="login1">
+
+    <ImageView
+        android:id="@+id/abstrakbawah"
+        android:layout_width="581dp"
+        android:layout_height="428dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-85dp"
+        android:layout_marginEnd="-99dp"
+        android:layout_marginBottom="-126dp"
+        app:srcCompat="@drawable/gambar6" />
+
+    <ImageView
+        android:id="@+id/botol"
+        android:layout_width="239dp"
+        android:layout_height="575dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="-139dp"
+        app:srcCompat="@drawable/gambar7" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="316dp"
+        android:layout_height="291dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="457dp"
+        app:srcCompat="@drawable/gambar8" />
+
+
+
+    <ImageView
+        android:id="@+id/tulisan"
+        android:layout_width="176dp"
+        android:layout_height="88dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="109dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="317dp"
+        app:srcCompat="@drawable/gambar9" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="472dp"
+        android:background="@drawable/buttonlogin"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:onClick="loginn" />
+
+    <Button
+        android:id="@+id/loginregister"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="398dp"
+        android:background="@drawable/buttonregister"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+</RelativeLayout>
